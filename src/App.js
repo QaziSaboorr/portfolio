@@ -18,7 +18,9 @@ function App() {
         <Route path="/certificates" element={<Certificates />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-      <footer Class="text-center border-top">Code by Qazi Ali</footer>
+      <footer Class="text-center border-slate-950 border-t mb-1  bottom-0">
+        Coded by Qazi Ali
+      </footer>
     </BrowserRouter>
   );
 }

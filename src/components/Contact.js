@@ -1,7 +1,63 @@
 import React from "react";
 
 const Contact = () => {
-  return <div>This is contact page</div>;
+  return (
+    <main className="h-[900px] flex justify-evenly items-center flex-col">
+      <h1 className="lg:text-3xl sm:text-sm ">
+        {" "}
+        <span className="text-decoration-line: underline font-extrabold">
+          Phone Number:
+        </span>{" "}
+        (+1) 587-966-2159
+      </h1>
+      <h1 className="lg:text-3xl sm:text-sm">
+        {" "}
+        <span className="text-decoration-line: underline font-extrabold">
+          Email:
+        </span>{" "}
+        saboorali83456@gmail.com
+      </h1>
+      <h1 className="lg:text-3xl sm:text-sm">
+        <span className="text-decoration-line: underline font-extrabold">
+          {" "}
+          Github:{" "}
+        </span>
+        <a
+          href="https://github.com/QaziSaboorr"
+          target="_blank"
+          className="text-yellow-600 text-decoration-line: underline font-style: italic  hover:text-red-400 "
+        >
+          Click here to go to my Github profile.
+        </a>
+      </h1>
+      <h1 className="lg:text-3xl sm:text-sm">
+        <span className="text-decoration-line: underline font-extrabold">
+          {" "}
+          Resume:{" "}
+        </span>
+        <a
+          href="https://resume-ali.tiiny.site/"
+          target="_blank"
+          className="text-yellow-600 text-decoration-line: underline font-style: italic  hover:text-red-400 "
+        >
+          Click here to view my resume.
+        </a>
+      </h1>
+      <h1 className="lg:text-3xl sm:text-sm">
+        <span className="text-decoration-line: underline font-extrabold">
+          {" "}
+          Linkedin:{" "}
+        </span>
+        <a
+          href="https://resume-ali.tiiny.site/"
+          target="_blank"
+          className="text-yellow-600 text-decoration-line: underline font-style: italic  hover:text-red-400 "
+        >
+          Click here to view my Linkedin.
+        </a>
+      </h1>
+    </main>
+  );
 };
 
 export default Contact;

@@ -4,9 +4,12 @@ import yourImage from "../images/IMG_1250.jpeg";
 const AboutMe = () => {
   return (
     <>
-      <main Class="lg:flex lg:h-[900px] sm:h-[700px] sm:block">
-        <div Class="flex justify-center items-center w-2/3">
-          <p Class="font-sans lg:text-2xl px-5 py-5 lg:w-1/2 sm:text-[1px] container ">
+      <main Class="container m-auto grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-20 py-40 h-screen sm:grid-cols-1">
+        <div Class="flex-col justify-center items-center ">
+          <h1 className="text-center font-serif text-decoration-line: underline font-extrabold text-3xl">
+            About Me
+          </h1>
+          <p Class="font-sans lg:text-2xl px-5 py-32  sm:text-[1px] container ">
             {" "}
             I am a driven individual hailing from Karachi, with a deep-rooted
             passion for software engineering and a strong desire to contribute
@@ -23,10 +26,10 @@ const AboutMe = () => {
             fitness.
           </p>
         </div>
-        <div Class="flex justify-center items-center w-1/3  border-green border-2 container ">
+        <div Class="flex justify-center items-center   container ">
           <img
             src={yourImage}
-            Class="lg:h-1/3 lg:w-1/2 rounded-5xl sm:h-1/4 sm:w-1/3 sm:px-10 "
+            Class="lg:h-1/2 lg:w-1/2 rounded-5xl sm:h-10 sm:10  "
           />
         </div>
       </main>
