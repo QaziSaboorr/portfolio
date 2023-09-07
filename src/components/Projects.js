@@ -162,7 +162,7 @@ const Projects = () => {
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
-          className="h-1/2  w-80 pl-10 "
+          className="h-1/2  w-80  "
         ></iframe>
         <p className="text-white hover:text-2xl">
           This was a cool project. I learned a lot of React concepts like
@@ -217,7 +217,7 @@ const Projects = () => {
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
-          className="h-1/2  w-80 pl-10 "
+          className="h-1/2  w-80 "
         ></iframe>
         <p className="text-white hover:text-2xl">
           This one is from my object oriented class in Java which I took with
