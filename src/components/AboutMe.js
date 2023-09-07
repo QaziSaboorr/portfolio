@@ -4,7 +4,7 @@ import yourImage from "../images/IMG_1250.jpeg";
 const AboutMe = () => {
   return (
     <>
-      <main Class="container m-auto grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-20 py-40 h-screen sm:grid-cols-1">
+      <main Class="container m-auto grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-20 py-40 min-h-screen sm:grid-cols-1">
         <div Class="flex-col justify-center items-center ">
           <h1 className="text-center font-serif text-decoration-line: underline font-extrabold text-3xl">
             About Me
@@ -26,11 +26,8 @@ const AboutMe = () => {
             fitness.
           </p>
         </div>
-        <div Class="flex justify-center items-center   container ">
-          <img
-            src={yourImage}
-            Class="lg:h-1/2 lg:w-1/2 rounded-5xl sm:h-10 sm:10  "
-          />
+        <div Class="flex justify-center items-center container ">
+          <img src={yourImage} Class="w-full max-w-md mx-auto  " />
         </div>
       </main>
     </>

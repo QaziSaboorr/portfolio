@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <main className="h-[900px] flex justify-evenly items-center flex-col">
+    <main className="min-h-screen flex justify-evenly items-center flex-col">
       <h1 className="lg:text-3xl sm:text-sm ">
         {" "}
         <span className="text-decoration-line: underline font-extrabold">

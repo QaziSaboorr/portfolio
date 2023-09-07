@@ -3,7 +3,7 @@ import work from "../images/work.jpeg";
 
 const Experience = () => {
   return (
-    <div className="container m-auto grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-20 py-40 h-screen sm:grid-cols-1">
+    <div className="container m-auto grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-20 py-40 min-h-screen sm:grid-cols-1">
       <div className="flex-col justify-start items-start sm:justify-center sm:items-center">
         <h1 className="text-decoration-line: underline font-bold text-3xl">
           Data Analyst
@@ -38,16 +38,16 @@ const Experience = () => {
           emphasized rotary drilling while we also had slide drilling data.
         </p>
         <a
-          className=" hover:text-red-400  text-red-500 text-decoration-line: underline font-style: italic"
+          className=" hover:text-red-400  text-red-500 text-decoration-line: underline font-style: italic sm:text-center sm:ml-10"
           href="http://136.159.140.62/Login"
           target="_blank"
         >
           Click here to check the GeoS's website
         </a>
       </div>
-      <div className="text-3xl flex-col justify-center items-center">
-        <img src={work} className="h-1/2 w-1/2" />
-        <p className="text-xs text-blue-600">
+      <div className="text-3xl flex-col justify-center items-center ">
+        <img src={work} className=" w-full max-w-md mx-auto " />
+        <p className="text-xs text-blue-600 text-center pt-10 ml-0">
           Picture with my research supervisor Dr Roman Shor and my two
           co-workers !
         </p>
