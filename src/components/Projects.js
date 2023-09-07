@@ -97,7 +97,7 @@ const Projects = () => {
           involved logic and cool designing.{" "}
         </p>
         <a
-          href="https://github.com/ucalgary-ensf381/assignment-05-wordle-QaziSaboorr"
+          href="https://github.com/QaziSaboorr/wordle"
           className="block  hover:text-red-400  text-red-500 text-decoration-line: underline font-style: italic"
           target="_blank"
         >
@@ -226,7 +226,7 @@ const Projects = () => {
           app from UML to GUI and how to use SQL in Java application !
         </p>
         <a
-          href="https://github.com/muneebalichishti01/ENSF380_Final_Project"
+          href="https://github.com/QaziSaboorr/petscheduler"
           className="block  hover:text-red-400  text-red-500 text-decoration-line: underline font-style: italic"
           target="_blank"
         >
