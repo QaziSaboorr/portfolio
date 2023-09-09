@@ -48,8 +48,7 @@ const Experience = () => {
       <div className="text-3xl flex-col justify-center items-center ">
         <img src={work} className=" w-full max-w-md mx-auto " />
         <p className="text-xs text-blue-600 text-center pt-10 ml-0">
-          Picture with my research supervisor Dr Roman Shor and my two
-          co-workers !
+          Picture of me presenting my feature at Geos Conference !
         </p>
       </div>
     </div>
