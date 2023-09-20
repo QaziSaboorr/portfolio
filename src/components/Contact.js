@@ -36,7 +36,7 @@ const Contact = () => {
           Resume:{" "}
         </span>
         <a
-          href="https://qazisaboorali.tiiny.site/"
+          href="https://github.com/QaziSaboorr/resume/blob/main/QaziSaboorAliresume%20(1).pdf"
           target="_blank"
           className="text-yellow-600 text-decoration-line: underline font-style: italic  hover:text-red-400 "
         >
