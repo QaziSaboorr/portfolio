@@ -49,7 +49,7 @@ const Contact = () => {
           Linkedin:{" "}
         </span>
         <a
-          href="https://www.linkedin.com/in/qazi-saboor-ali-275706290/"
+          href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
           target="_blank"
           className="text-yellow-600 text-decoration-line: underline font-style: italic  hover:text-red-400 "
         >
